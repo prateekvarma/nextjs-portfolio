@@ -3,10 +3,12 @@ import { Inter } from '@next/font/google'
 import styles from './page.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
+import Header from '../../components/Header'
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Header />
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
